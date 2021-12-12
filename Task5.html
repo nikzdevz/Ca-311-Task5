@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Integral University</title>
+<style>
+*{
+padding : 0;
+margin :0;
+}
+html {
+scroll-behavior: smooth;
+margin: 0; 
+height: 100%; 
+overflow: hidden
+}
+
+@font-face {
+  font-family: titleFam;
+  src: url(typo-roundBold.otf);
+}
+.header{
+position : fixed;
+top : 0;
+left :0;
+width:20%;
+background : #152238;
+height : 100vh;
+display : flex;
+flex-direction : column;
+align-items:center;	
+justify-content:center;
+box-sizing: border-box; 
+padding-bottom: 80px;
+z-index : 5;
+}
+
+.header ul{
+list-style: none;
+margin : 60px 0px;
+}
+.header ul li{
+margin : 20px 0px;
+font-weight : bold;
+font-family : "Verdana";
+text-align : center;
+color : white;
+}
+.header ul a{
+text-decoration : none;
+}
+.bgDiv{
+height:100vh;
+width : 100%;
+position:fixed;
+top : 0;
+left : 0;
+z-index : -4;
+background-image: url("1619442238DJI00122.png");
+background-position: center;
+background-repeat: no-repeat;background-size: cover;
+filter: grayscale(100%) blur(7px);
+}
+
+.btmSection{
+width : 100%;
+height : 80px;
+position : absolute;
+bottom : 30px;
+left : 0;
+display : flex;
+justify-content : center;
+align-items:center;
+}
+
+.btmSection a{
+margin : 0 10px;
+}
+
+
+.mainSection{
+position:absolute;
+right:0;
+top : 0;
+height:600vh;
+width : 80%;
+}
+
+.contentSection{
+height:100vh;
+width : 100%;
+max-height : 20%;
+background-color : white;
+padding : 30px;
+box-sizing: border-box; 
+}
+
+.meSection{
+height:100vh;
+width : 100%;
+max-height : 20%;
+box-sizing: border-box; 
+display:flex;
+flex-direction : column;
+justify-content : center;
+align-items:center;
+}
+.meSection img{
+height : 35%;
+width : 40%;
+object-fit: contain;
+}
+
+.meSection h1{
+margin : 0px;
+color : white;
+font-size : 70px;
+line-height : 80px;
+font-weight : bold;
+font-family : "Verdana";
+}
+.meSection h3{
+margin : 0px;
+color : white;
+font-size : 35px;
+line-height : 50px;
+font-weight : bold;
+font-family : "Verdana";
+}
+
+.meSection h3 .nikname{
+color : red;
+font-family : "titleFam";
+}
+.meSection p{
+width : 70%;
+color : white;
+margin : 20px 0px;
+text-align:center;
+font-size:18px;
+}
+
+.contentSection h1{
+font-family : "titleFam";
+font-size: 70px;
+font-weight : bold;
+color : #152238;
+}
+
+.contentSection h2{
+font-size: 30px;
+margin : 30px 0px -20px 0;
+font-family : "titleFam";
+font-weight : bold;
+color : #152238;
+}
+.contentSection p{
+margin : 30px 0 0 0;
+color : #333333;
+font-family:serif;
+font-size : 20px;
+line-height : 30px;
+}
+
+.contentSection p span{
+font-weight:bold;
+}
+
+.contentSection ul{
+list-style: none;
+}
+
+.contentSection ul li{
+color : #333333;
+font-family:serif;
+font-size : 20px;
+line-height : 30px;
+}
+
+
+</style>
+</head>
+<body>
+<div class="header">
+<ul>
+<a href="#home"><li>Home</li></a>
+<a href="#about"><li>About</li></a>
+<a href="#admission"><li>Admission</li></a>
+<a href="#academic"><li>Academic</li></a>
+<a href="#res"><li>Resources</li></a>
+<a href="#dev"><li>Developer</li></a>
+</ul>
+
+<div class="btmSection">
+<a href="#"><img src="insta.png" height="30" width="30"></a>
+<a href="#"><img src="facebook.png" height="30" width="30"></a>
+<a href="#"><img src="mail.png" height="30" width="30"></a>
+</div>
+</div>
+
+<div class="bgDiv">
+</div>
+<div class="mainSection">
+<div class="meSection" id="home">
+<img src ="logo.png">
+<h1> Integral University</h1>
+<p><em>"Money doesn't change people, but rather, only amplifies that which a person already is."</em></p>
+</div>
+<div class="contentSection fillDiv" id="about">
+<h1>About</h1>
+<p>Integral University is situated in Lucknow, a city known for its culture, etiquette, monuments and role in the freedom struggle. Lucknow is the capital city of the largest state of India, and has a population of about 4.6 million. Lucknow is the capital city of Uttar Pradesh and it has always been a mulcultural city. Integral University has a unique culture of inclusiveness, diversity, personal and intellectual integrity and value-based education.</p>
+<p>The curriculum has a strong focus on individual growth and the development of essential tools so that its students make a mark in the corporate world and the ﬁeld of technology. These are solidly supported by a highly qualiﬁed and trained team of accomplished faculty and robust academic infrastructure. It was established under the Act Number 9 of 2004 by the State Government. The University is duly approved by the University Grants Commission (UGC) under section 2(f) and 12B of the UGC Act, 1956, Medical Council of India, Pharmacy Council of India, Indian Nursing Council, Council of Architecture, Bar Council of India, Indian Association of Physiotherapists, National Council for Teacher Education, UP State Medical Faculty and Distance Education Bureau. The University maintains a decent and decorous atmosphere in the campus. The campus is highly disciplined and ragging-free, with all modern amenities for pursuit of higher education and sports. The campus provides state-off the-art hostel accommodation, with the capacity to host 2600 students in the hostels, and houses a 550-bedded hospital, as part of the Medical College, with state-of-the-art medical facilities and more than 200 doctors. Integral University is not only an academic institution but also a mission and a vision to make the country progressive and prosperous in all walks of life.</p>
+</div>
+<div class="contentSection" id="admission">
+<h1>Admission</h1>
+<p>At Integral University, every effort is made to make admission process smooth and expeditious. Our dedicated team of qualified counselors play a pivotal role in guiding students to choose the appropriate program and are available at the Integral University campus to address any admission related query, since it concerns the ‘course’ of their life and careers.</p>
+<h2>Admission Application Process</h2>
+<p>
+<span>Online Application : </span>Candidates can apply online for admission through admission.iul.ac.in by filling online admission application form followed by paying prescribed application fee.<br>
+<span>Paper Based Application : </span>Candidates can purchase admission application form from the University campus & submit the same in the Directorate of Admissions and Academics with all complete information along with required documents.<br>
+Courses are Categorized as Test & Non Test.
+</p>
+</div>
+<div class="contentSection" id="academic">
+<h1>Academic</h1>
+<p>
+<span>Basic Skill Courses : </span>At Integral University we not only focus on the courses taught but we also inculcate in our students with knowledge beyond their curriculum. Various skill imparting activities are carried out that focus on the overall development of our students. In a constantly changing environment, having life skills is an essential part of being able to meet the challenges of everyday life and builds the confidence and credibility of students.<br><br>
+<span>Aims : </span>Industries are constantly hiring employees with a wide skill spectrum and qualities in hopes of creating or maintaining an efficient, professional and productive workplace. The primary aim of Basic Skills is to build problem solving capabilities, an essential skill for life. Basic Skills classes assist students in professional and personal development.<br>
+Courses are Categorized as Test & Non Test.<br><br>
+<span>Objectives : </span>While students work hard to get good grades, many still struggle to gain employment. According to research by the CBI (Confederation of British Industry) in 2011 employers were looking not just for academic success but key employability skills.
+</p>
+</div>
+<div class="contentSection" id="res">
+<h1>Resources</h1>
+<p>There are certain places that every university student knows well. The campus pub. The library. The party dorm. That one restaurant in the food court that gives you an extra piece of garlic bread with your slice of pre-fab lasagna. Once we get past the flurry of activity in the first few weeks of school and settle into our academic routines, it's easy to become lazy when it comes to scouting out the resources available on campus. You might be surprised at what most universities offer, often free of charge.<br><br><span>Some of the resources are :</span><br>
+</p>
+
+<ul>
+<li>Anti Ragging Commitee</li>
+<li>Central Library</li>
+<li>IT HelpDesk</li>
+<li>Centre for Career Guidance & Development (CCG&D)</li>
+<li>Directorate of Planning & Research</li>
+<li>Integral Information Ad Research center (IIRC)</li>
+<li>Internal Quality Assurance Cell (IQAC)</li>
+</ul>
+</div>
+
+<div class="meSection" id="dev">
+<h3> Developed by</h3>
+<h1>Nikhil Kumar Gupta<h1>
+<h3> aka <span class="nikname">nikzdevz</span></h3>
+</div>
+</div>
+</div>
+</body>
+</html>
